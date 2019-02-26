@@ -4,6 +4,16 @@
     border: 0px;
 }
 
+@font-face {
+    font-family: 'Gotham';
+    src: url("/fonts/Gotham-Bold.eot");
+}
+
+@font-face {
+    font-family: 'Shimmer OT';
+    src: url("//db.onlinewebfonts.com/c/b7c08b08af7460f801cc4168701ec668?family=ShimmerOTW01-Regular");
+}
+
 .importante{
     position: absolute;
     margin-left: 430px;
