@@ -1,0 +1,483 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.importante{
+    position: absolute;
+    margin-left: 430px;
+    margin-top: 30px;
+}
+
+nav{
+    height: 70px;
+    width: 100%;
+    position: absolute;
+}
+
+.aviso{
+    display: none;
+    background-color: #f0ebe1;
+    margin-left:430px;
+    width: 420px;
+    padding: 15px;
+}
+
+.promo{
+    padding: 15px;
+    font-family: 'Gotham';
+    font-size: 75%;
+    color:#64625c; 
+}
+
+.esqueci{
+    font-family: 'Gotham';
+    font-size: 75%;
+    color:#64625c; 
+}
+
+.navegador-superior{
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-diferente{
+    display: none;
+    background-color: #ddb43f;
+}
+
+#menus, .importante, .esqueci, .entrar, .criar{
+    cursor: pointer;
+}
+
+#menus:hover{
+    border-bottom:4px solid #8a0f0c;
+}
+
+.menu{
+    text-align: center;
+    padding: 15px;
+}
+
+ul, li, a, #menus, .lefts, .rights, .importante{
+    display: inline;
+}
+
+nav ul li a, .idiomas, #menus{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    font-family: 'Gotham';
+    font-size: 75%;
+}
+
+.idiomas{
+    font-size: 65%;
+
+}
+
+.logo-rci:hover{
+    border-bottom: none;
+}
+
+.idiomas:hover{
+    border-bottom: none;
+}
+
+.open, .open3, .open4, .open1{
+    display: none;
+    position: fixed;
+    z-index: 999999999999;
+    width: 96.9vmax;
+    height: 330px;
+    margin-top: 6px;
+    background-color:#f0ebe1;
+}
+
+.center, .center3, .center4, .center1{
+    margin-left: 190px;
+}
+
+.open ul li a, .open3 ul li a, .open4 ul li a, .open1 ul li a{
+    color:#b2a99f;
+}
+
+h2, .open, .open3, .open4, .open1{
+    font-family: 'Gotham';
+    font-size: 90%;
+    padding: 15px;
+}
+
+.sobre, .ajuda, .conta, .destinos{
+    width: 250px;
+}
+
+.destinos-rodape, .sobre-rodape, .ajuda-rodape, .conta-rodape{
+    width: 150px;
+}
+
+.numeros{
+    width: 300px;
+}
+
+.sobre, .ajuda, .conta, .destinos, .numeros, .destinos-rodape, .sobre-rodape, .ajuda-rodape, .conta-rodape{
+    margin-top: 20px;
+    margin-right: 100px;
+    display:inline-block;
+}
+
+.s, .a{
+    display: block;
+}
+
+.s{
+    text-decoration: none;
+    font-family: 'Gotham';
+    color: #64625c;
+    font-size: 80%;
+}
+
+.a:hover{
+    border-bottom:1px solid #b2a99f;
+}
+
+.img-dropdown, .img-dropdown3, .img-dropdown4, .img-dropdown1{
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.img-d, .img-d3, .img-d4, .img-d1{
+    display: inline-block;
+    width: auto;
+    height: auto;
+}
+
+
+.close, .close3, .close4, .close1, .closei, .closef{
+    cursor: pointer;
+    float: right;
+}
+
+.botao{
+    float: right;
+    margin-top: 16px;
+    margin-right: 150px;
+    cursor:pointer;
+    background-color: white;
+    padding: 10px;
+    color: #9f2b63;
+    font-family: 'Gotham';
+}
+
+.botao2{
+    cursor:pointer;
+    background-color: #9f2b63;
+    padding: 10px;
+    color: white;
+    font-family: 'Gotham';
+    position: absolute;
+    margin-left: 45%;
+    top: 88%;
+}
+
+.criar{
+    background-color: white;
+    padding: 15px;
+    color: #9f2b63;
+    font-family: 'Gotham';
+    margin-bottom: 10px;
+}
+
+.entrar{
+    background-color: #9f2b63;
+    padding: 15px;
+    color: white;
+    font-family: 'Gotham';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.forms{
+    background-color: white;
+    margin-top: -57px;
+    margin-right: 150px;
+    width: 278px;
+    height: 227px;
+    padding: 15px;
+    border: 1px solid #ddb43f;
+    float: right;
+
+}
+
+.formulario{
+    padding: 10px;
+}
+
+.usuario, .senha{
+    width: 90%;
+    border: 1px solid #64625c;
+    padding: 10px;
+    margin-bottom: 5px;
+
+}
+
+.lembrar, .local{
+    text-decoration: none;
+    font-family: 'Gotham';
+}
+
+.idiomas{
+    float: left;
+    margin-top: 30px;
+    margin-left: 150px;
+    cursor:pointer;
+    padding: 15px;
+}
+
+.slider{
+    width: 100%;
+    height: 48vw;
+    margin: auto;
+    /* position: relative; */
+}
+.slider img{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+.slider img.active{
+    display: block;
+}
+.slider .arrow{
+    position: absolute;
+    top: 50%;
+    font-size: 30px;
+    transform: translate(0,-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    user-select: none;
+}
+.slider .arrow.right{
+    right: 0;
+}
+
+.slider .overlay{
+    padding: 15px 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.slider .overlay .dot{
+    width: 10px;
+    height: 10px;
+    border:2px solid #b2a99f;
+    
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 6px; 
+    cursor: pointer;
+}
+
+.slider .overlay .dot.active{
+    background-color:white;
+}
+
+.rodape{
+    width: 100%;
+    height: 36vw;
+}
+
+.infos{
+    margin-top: 7%;
+}
+
+.redes, .slogan{
+    padding: 15px;
+    text-align: center;
+}
+
+.slogan{
+    border-bottom:1px solid #b2a99f;
+
+}
+
+.numeros, .mais-info{
+    margin-left: 100px;
+}
+
+.mais-info{
+    padding-top: 30px;
+}
+
+.rede{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.mais{
+    text-decoration: none;
+    font-family: 'Gotham';
+    padding-right: 34px;
+    color: #64625c;
+    font-size: 75%;
+}
+
+.abaixo1{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    text-align:center;
+}
+
+.principal{
+    font-family: 'Shimmer OT';
+    font-size: 90px;
+    color: #559486;
+    text-align:center;
+    padding-top: 100px;
+}
+
+#resortp{
+    padding: 50px;
+}
+#endereco{
+    color:#64625c; 
+    }
+
+.lugares{
+    display: inline-block;
+    width: 45%;
+    padding: 20px;
+}
+
+.textsan{
+    padding: 70px;
+    width: 80%;
+    margin:auto;
+}
+
+.texto, .local, .local2{
+    font-family: 'Gotham';
+    font-size:140%;
+    margin: auto;
+    text-align:center;
+}
+
+.texto, .local{
+    color:#9f2b63;
+}
+
+.local2{
+    color:#64625c; 
+}
+
+.e{
+    font-family: 'Gotham';
+    font-size:80%;
+    margin: auto;
+    text-align:center;
+    color:#64625c3; 
+    padding-bottom: 50px;
+}
+
+.botao3{
+    cursor:pointer;
+    background-color: #9f2b63;
+    padding: 10px;
+    color: white;
+    font-family: 'Gotham';
+    position: absolute;
+    margin-left: -5%;
+}
+
+.legenda1, .legenda3{
+    height: auto;
+    width: 37%;
+    margin:20px;
+    position: absolute;
+}
+
+.legenda1, .legenda2{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0));
+}
+
+.legenda2, .legenda4{
+    height: auto;
+    width: 37%;
+    margin:20px;
+    margin-left: 42.5%;
+    position: absolute;
+}
+
+.legenda3, .legenda4{
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.5));
+}
+
+.l1, .l2, .l3, .l4{
+    padding: 30px;
+    font-family: 'Gotham';
+    color: white;
+    font-size: 100%;
+}
+
+.legenda1, .legenda2, .legenda3, .legenda4{
+    display: none;
+}
+
+.legenda1{
+    margin-top: -37%;
+}
+
+.legenda2{
+    margin-top: -37%;
+}
+
+.legenda3{
+    margin-top: -200px;
+}
+
+.legenda4{
+    margin-top: -200px;
+}
+
+.abaixo2{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    margin-right: 80px;
+}
+
+.abaixo3{
+    height: auto;
+    text-align: center;
+}
+
+.botao4{
+    cursor:pointer;
+    background-color: #9f2b63;
+    padding: 15px;
+    margin: 100px;
+    color: white;
+    font-family: 'Gotham';
+
+}
+
+.img-resort{
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.botao5{
+    cursor:pointer;
+    background-color: white;
+    padding: 10px;
+    color: #9f2b63;
+    font-family: 'Gotham';
+    font-size: 150%;
+}
