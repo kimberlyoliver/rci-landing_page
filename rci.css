@@ -6,12 +6,44 @@
 
 @font-face {
     font-family: 'Gotham';
-    src: url("/fonts/Gotham-Bold.eot");
-}
+    src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Gotham-Bold.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Gotham-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Gotham-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+     font-weight: 700;
+     font-style: normal;
+   }
+  
+  @font-face {
+    font-family: 'Gotham';
+    src: url('fonts/Gotham-Medium.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Gotham-Medium.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Gotham-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Gotham-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+     font-weight: 400;
+     font-style: normal;
+   }
+  
+  @font-face {
+    font-family: 'Gotham';
+    src: url('fonts/Gotham-Thin.eot'); /* IE9 Compat Modes */
+    src: url('fonts/Gotham-Thin.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Gotham-Thin.woff') format('woff'), /* Modern Browsers */
+       url('fonts/Gotham-Thin.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('fonts/Gotham-Thin.svg#svgFontName') format('svg'); /* Legacy iOS */
+     font-weight: 300;
+     font-style: normal;
+   }
 
-@font-face {
-    font-family: 'Shimmer OT';
-    src: url("//db.onlinewebfonts.com/c/b7c08b08af7460f801cc4168701ec668?family=ShimmerOTW01-Regular");
+@font-face {font-family: "ShimmerOTW01-Regular";
+    src: url("//db.onlinewebfonts.com/t/b7c08b08af7460f801cc4168701ec668.eot");
+    src: url("//db.onlinewebfonts.com/t/b7c08b08af7460f801cc4168701ec668.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/b7c08b08af7460f801cc4168701ec668.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/b7c08b08af7460f801cc4168701ec668.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/b7c08b08af7460f801cc4168701ec668.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/b7c08b08af7460f801cc4168701ec668.svg#ShimmerOTW01-Regular") format("svg");
 }
 
 .importante{
